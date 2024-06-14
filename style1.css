@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+}
+
+#resultado {
+    margin-top: 10px;
+    font-weight: bold;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade3</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Lista de Compras</h1>
+    <div>
+        <label for="item">Item:</label>
+        <input type="text" id="item">
+    </div>
+    <div>
+        <input type="radio" id="cor-verde" name="cores" value="green" checked>
+        <label for="cor-verde">Verde</label>
+        <input type="radio" id="cor-azul" name="cores" value="blue">
+        <label for="cor-azul">Azul</label>
+        <input type="radio" id="cor-vermelho" name="cores" value="red">
+        <label for="cor-vermelho">Vermelho</label>
+    </div>
+    <button onclick="adicionarItem()">Adicionar Item</button>
+    <ul id="lista-compras"></ul>
+    <script src="Atividade3.js"></script>
+    <a href="atividade.html">Voltar para pagina inicial</a>
+</body>
+</html>
